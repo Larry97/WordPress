@@ -1,5 +1,4 @@
-š
-(c<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:31;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2022-09-15 04:33:36";s:13:"post_date_gmt";s:19:"2022-09-15 04:33:36";s:12:"post_content";s:1843:"[uacf7-row]
+Œ(c<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:31;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2022-09-15 04:33:36";s:13:"post_date_gmt";s:19:"2022-09-15 04:33:36";s:12:"post_content";s:1843:"[uacf7-row]
 [uacf7-col col:6] <label> Name (optional) [text your-name placeholder "Enter your name here"] </label> [/uacf7-col]
 [uacf7-col col:6] <label> Email [email* your-email placeholder "example@gmail.com"] </label> [/uacf7-col]
 [/uacf7-row]

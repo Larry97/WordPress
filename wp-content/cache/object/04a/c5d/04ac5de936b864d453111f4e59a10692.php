@@ -1,5 +1,4 @@
-š
-(c<?php exit; ?>a:1:{s:7:"content";a:69:{s:5:"_form";a:1:{i:0;s:412:"[uacf7-row]
+Œ(c<?php exit; ?>a:1:{s:7:"content";a:69:{s:5:"_form";a:1:{i:0;s:412:"[uacf7-row]
 [uacf7-col col:6] <label> Name (optional) [text your-name placeholder "Enter your name here"] </label> [/uacf7-col]
 [uacf7-col col:6] <label> Email [email* your-email placeholder "example@gmail.com"] </label> [/uacf7-col]
 [/uacf7-row]

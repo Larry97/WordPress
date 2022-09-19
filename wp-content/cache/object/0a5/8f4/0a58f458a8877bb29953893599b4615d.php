@@ -1,2 +1,1 @@
-š
-(c<?php exit; ?>a:1:{s:7:"content";s:3:"yes";}
+Œ(c<?php exit; ?>a:1:{s:7:"content";s:3:"yes";}
