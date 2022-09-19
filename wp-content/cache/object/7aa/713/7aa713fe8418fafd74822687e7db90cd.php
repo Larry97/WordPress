@@ -1,4 +1,5 @@
-¸(c<?php exit; ?>a:1:{s:7:"content";a:69:{s:5:"_form";a:1:{i:0;s:149:"[uacf7-row]
+š
+(c<?php exit; ?>a:1:{s:7:"content";a:69:{s:5:"_form";a:1:{i:0;s:149:"[uacf7-row]
 [uacf7-col col:6] <label> Email [email* your-email placeholder "example@gmail.com"] </label> [/uacf7-col] 
 [/uacf7-row]
 [submit "Submit"]";}s:5:"_mail";a:1:{i:0;s:474:"a:9:{s:6:"active";b:1;s:7:"subject";s:23:"Contact Form Submission";s:6:"sender";s:34:"wordpress@lmirzay.wppsbootcamp.com";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:162:"From: [your-name], [your-email]
