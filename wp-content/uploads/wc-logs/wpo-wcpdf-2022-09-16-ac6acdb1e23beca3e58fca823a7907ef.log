@@ -1,0 +1,2 @@
+2022-09-16T17:35:45+00:00 INFO Template setting migrated from /home/lmirzay/public_html/projekat/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/templates/Simple to default/Simple
+2022-09-16T17:40:46+00:00 CRITICAL Table 'lmirzay_projekat.wp_wcpdf_invoice_number' doesn't exist

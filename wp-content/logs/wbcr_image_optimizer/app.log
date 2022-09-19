@@ -1,0 +1,146 @@
+
+19-09-2022 04:59:09 [lmirzay.wppsbootcamp.com][info] Parent plugin start installation!
+19-09-2022 04:59:09 [lmirzay.wppsbootcamp.com][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.5.6
+19-09-2022 04:59:09 [lmirzay.wppsbootcamp.com][info] Parent plugin installation complete!
+-------------------------------
+19-09-2022 04:59:15 [lmirzay.wppsbootcamp.com][info] Try to create backup directory. Backup dir: (/home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup)
+-------------------------------
+19-09-2022 05:00:11 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:11 [lmirzay.wppsbootcamp.com][info] Try to create backup directory. Backup dir: (/home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09)
+19-09-2022 05:00:11 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/logo-favicon-1.png) to a remote server (server_1).
+19-09-2022 05:00:11 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:11 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/logo-favicon-1-150x150.png) to a remote server (server_1).
+19-09-2022 05:00:11 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:11 [lmirzay.wppsbootcamp.com][debug] New queue created #1, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;6&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:10245,&quot;final_size&quot;:5543,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:1,\&quot;original_main_size\&quot;:5450,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563611}
+19-09-2022 05:00:11 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 10
+-------------------------------
+19-09-2022 05:00:11 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:11 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/cropped-logo-favicon-1.png) to a remote server (server_1).
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/cropped-logo-favicon-1-150x150.png) to a remote server (server_1).
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/cropped-logo-favicon-1-300x300.png) to a remote server (server_1).
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][debug] New queue created #2, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;7&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:35837,&quot;final_size&quot;:18999,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:18383,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563612}
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 9
+-------------------------------
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/logo-favicon.png) to a remote server (server_1).
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/logo-favicon-150x150.png) to a remote server (server_1).
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][debug] New queue created #3, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;20&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:9998,&quot;final_size&quot;:5297,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:1,\&quot;original_main_size\&quot;:5599,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563612}
+19-09-2022 05:00:12 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 8
+-------------------------------
+19-09-2022 05:00:13 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:13 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/High-Resolution-Logo-Transparent-Background-2.png) to a remote server (server_1).
+19-09-2022 05:00:13 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:13 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/High-Resolution-Logo-Transparent-Background-2-150x150.png) to a remote server (server_1).
+19-09-2022 05:00:13 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:13 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/High-Resolution-Logo-Transparent-Background-2-300x69.png) to a remote server (server_1).
+19-09-2022 05:00:13 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:13 [lmirzay.wppsbootcamp.com][debug] New queue created #4, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;21&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:121740,&quot;final_size&quot;:99654,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:97894,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563613}
+19-09-2022 05:00:13 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 7
+-------------------------------
+19-09-2022 05:00:13 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:14 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/High-Resolution-Logo-Transparent-Background.png) to a remote server (server_1).
+19-09-2022 05:00:14 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:14 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/High-Resolution-Logo-Transparent-Background-150x150.png) to a remote server (server_1).
+19-09-2022 05:00:14 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:14 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/High-Resolution-Logo-Transparent-Background-300x67.png) to a remote server (server_1).
+19-09-2022 05:00:14 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:14 [lmirzay.wppsbootcamp.com][debug] New queue created #5, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;29&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:116425,&quot;final_size&quot;:99146,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:89292,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563614}
+19-09-2022 05:00:14 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 6
+-------------------------------
+19-09-2022 05:00:14 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:15 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Slider-2-scaled.jpg) to a remote server (server_1).
+19-09-2022 05:00:15 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:15 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Slider-2-150x150.jpg) to a remote server (server_1).
+19-09-2022 05:00:15 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:15 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Slider-2-300x169.jpg) to a remote server (server_1).
+19-09-2022 05:00:15 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:15 [lmirzay.wppsbootcamp.com][debug] New queue created #6, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;37&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:613303,&quot;final_size&quot;:266940,&quot;original_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;final_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:591844,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563615}
+19-09-2022 05:00:15 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 5
+-------------------------------
+19-09-2022 05:00:15 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:16 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Home-girl-scaled-e1663315556557.jpg) to a remote server (server_1).
+19-09-2022 05:00:16 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:16 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Home-girl-scaled-e1663315556557-150x150.jpg) to a remote server (server_1).
+19-09-2022 05:00:16 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:16 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Home-girl-scaled-e1663315556557-300x200.jpg) to a remote server (server_1).
+19-09-2022 05:00:16 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:16 [lmirzay.wppsbootcamp.com][debug] New queue created #7, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;38&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:393327,&quot;final_size&quot;:265731,&quot;original_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;final_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:369481,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563616}
+19-09-2022 05:00:16 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 4
+-------------------------------
+19-09-2022 05:00:16 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:17 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Family-scaled-e1663315529831.jpg) to a remote server (server_1).
+19-09-2022 05:00:17 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:17 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Family-scaled-e1663315529831-150x150.jpg) to a remote server (server_1).
+19-09-2022 05:00:17 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:17 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Family-scaled-e1663315529831-300x201.jpg) to a remote server (server_1).
+19-09-2022 05:00:17 [lmirzay.wppsbootcamp.com][debug] New queue created #8, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;39&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:309505,&quot;final_size&quot;:211302,&quot;original_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;final_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:1,\&quot;original_main_size\&quot;:302795,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563617}
+19-09-2022 05:00:17 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 3
+-------------------------------
+19-09-2022 05:00:17 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:18 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Glass-Table-scaled-e1663316004104.jpg) to a remote server (server_1).
+19-09-2022 05:00:18 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:18 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Glass-Table-scaled-e1663316004104-150x150.jpg) to a remote server (server_1).
+19-09-2022 05:00:18 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:18 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Glass-Table-scaled-e1663316004104-300x200.jpg) to a remote server (server_1).
+19-09-2022 05:00:18 [lmirzay.wppsbootcamp.com][debug] New queue created #9, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;59&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:351829,&quot;final_size&quot;:220139,&quot;original_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;final_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:1,\&quot;original_main_size\&quot;:345669,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563618}
+19-09-2022 05:00:18 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 2
+-------------------------------
+19-09-2022 05:00:18 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:18 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/woocommerce-placeholder.png) to a remote server (server_1).
+19-09-2022 05:00:19 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:19 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/woocommerce-placeholder-150x150.png) to a remote server (server_1).
+19-09-2022 05:00:19 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:19 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/woocommerce-placeholder-300x300.png) to a remote server (server_1).
+19-09-2022 05:00:19 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:19 [lmirzay.wppsbootcamp.com][debug] New queue created #10, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;118&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:119323,&quot;final_size&quot;:84347,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:102644,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563619}
+19-09-2022 05:00:19 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 1
+-------------------------------
+19-09-2022 05:00:19 [lmirzay.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+19-09-2022 05:00:20 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Chair-6-scaled.jpg) to a remote server (server_1).
+19-09-2022 05:00:20 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:20 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Chair-6-150x150.jpg) to a remote server (server_1).
+19-09-2022 05:00:20 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:20 [lmirzay.wppsbootcamp.com][info] Preparing to upload a file (/home/lmirzay/public_html/projekat/wp-content/uploads/2022/09/Custom-Made-Furniture-Chair-6-300x214.jpg) to a remote server (server_1).
+19-09-2022 05:00:20 [lmirzay.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+19-09-2022 05:00:20 [lmirzay.wppsbootcamp.com][debug] New queue created #11, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;520&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:560360,&quot;final_size&quot;:196293,&quot;original_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;final_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:550598,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1663563620}
+19-09-2022 05:00:20 [lmirzay.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 0
+-------------------------------
+19-09-2022 05:04:55 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/logo-favicon-1.png.
+19-09-2022 05:04:55 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/logo-favicon-1-150x150.png.
+19-09-2022 05:04:55 [lmirzay.wppsbootcamp.com][debug] Deleted queue item #1
+-------------------------------
+19-09-2022 05:05:15 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/logo-favicon.png.
+19-09-2022 05:05:15 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/logo-favicon-150x150.png.
+19-09-2022 05:05:15 [lmirzay.wppsbootcamp.com][debug] Deleted queue item #3
+-------------------------------
+19-09-2022 05:07:08 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Slider-2-scaled.jpg.
+19-09-2022 05:07:08 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Slider-2-150x150.jpg.
+19-09-2022 05:07:08 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Slider-2-300x169.jpg.
+19-09-2022 05:07:08 [lmirzay.wppsbootcamp.com][debug] Deleted queue item #6
+-------------------------------
+19-09-2022 05:07:20 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Family-scaled-e1663315529831.jpg.
+19-09-2022 05:07:20 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Family-scaled-e1663315529831-150x150.jpg.
+19-09-2022 05:07:20 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Family-scaled-e1663315529831-300x201.jpg.
+19-09-2022 05:07:20 [lmirzay.wppsbootcamp.com][debug] Deleted queue item #8
+-------------------------------
+19-09-2022 05:07:28 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Glass-Table-scaled-e1663316004104.jpg.
+19-09-2022 05:07:28 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Glass-Table-scaled-e1663316004104-150x150.jpg.
+19-09-2022 05:07:28 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Glass-Table-scaled-e1663316004104-300x200.jpg.
+19-09-2022 05:07:28 [lmirzay.wppsbootcamp.com][debug] Deleted queue item #9
+-------------------------------
+19-09-2022 05:07:36 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Home-girl-scaled-e1663315556557.jpg.
+19-09-2022 05:07:36 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Home-girl-scaled-e1663315556557-150x150.jpg.
+19-09-2022 05:07:36 [lmirzay.wppsbootcamp.com][info] Restored file: /home/lmirzay/public_html/projekat/wp-content/uploads/wio_backup/2022/09/Custom-Made-Furniture-Home-girl-scaled-e1663315556557-300x200.jpg.
+19-09-2022 05:07:36 [lmirzay.wppsbootcamp.com][debug] Deleted queue item #7
+-------------------------------
+19-09-2022 05:11:14 [lmirzay.wppsbootcamp.com][info] Parent plugin start deactivation!
+19-09-2022 05:11:14 [lmirzay.wppsbootcamp.com][info] Parent plugin deactivation complete!
+-------------------------------
