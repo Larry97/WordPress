@@ -589,7 +589,7 @@ class Woolentor_Product_Curvy_Widget extends Widget_Base {
                 \Elementor\Group_Control_Typography::get_type(),
                 [
                     'name' => 'content_typography',
-                    'label' => esc_html__( 'Typography', 'moveaddons' ),
+                    'label' => esc_html__( 'Typography', 'woolentor' ),
                     'selector' => '{{WRAPPER}} .wl_single-product-item .product-content .product-content-top p',
                 ]
             );
@@ -971,6 +971,7 @@ class Woolentor_Product_Curvy_Widget extends Widget_Base {
                             <div class="product-price">
                                 <span class="new-price"><?php woocommerce_template_loop_price();?></span>
                             </div>
+                            <?php do_action( 'woolentor_addon_after_price' ); ?>
                             <p><?php echo $content_count; ?> </p>
                             <div class="reading">
                                 <?php woocommerce_template_loop_rating(); ?>
@@ -978,7 +979,6 @@ class Woolentor_Product_Curvy_Widget extends Widget_Base {
                         </div>
                         <ul class="action">
                             <li class="wl_cart">
-
                                 <a href="<?php echo $product->add_to_cart_url(); ?>" data-quantity="1" class="action-item <?php echo $btn_class; ?>" data-product_id="<?php echo $product->get_id(); ?>"><?php echo __( $cart_btn, 'woolentor' );?></a>
                             </li>
                             <?php
@@ -1003,8 +1003,8 @@ class Woolentor_Product_Curvy_Widget extends Widget_Base {
                     </div>
                 </div>             
             </div>
-                            <!--Product End-->
-                <?php endwhile; wp_reset_query(); wp_reset_postdata(); endif; ?>
+            <!--Product End-->
+            <?php endwhile; wp_reset_query(); wp_reset_postdata(); endif; ?>
         </div>
                
         <?php

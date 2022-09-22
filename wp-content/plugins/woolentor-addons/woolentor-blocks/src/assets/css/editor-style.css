@@ -191,7 +191,10 @@ h2.woolentor-blocks-section-title {
 }
 
 button.components-button.woolentor-elements-tab-menu-item {
-    flex: 0 0 50%;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     justify-content: center;
     box-shadow: inset 0 0 0 1px #d5dadf;
     color: #222222 !important;
@@ -204,7 +207,7 @@ button.components-button.woolentor-elements-tab-menu-item.tab-menu-active{
     color: #ffffff !important;
     box-shadow: inset 0 0 0 1px #a4afb7 !important;
 }
-.woolentor-element-tab-content {
+.woolentor-element-tab-content,.woolentor-tabs-content {
     padding-top: 15px;
 }
 /* TabPanel Modules */
@@ -212,6 +215,7 @@ button.components-button.woolentor-elements-tab-menu-item.tab-menu-active{
     height: 30px;
     background-position: 0 0,15px 15px;
     background-size: 30px 30px;
+    padding: inherit;
 }
 .woolentor-panel-control button.woolentor-tab-menu-item::before {
     font-family: 'dashicons';
@@ -256,6 +260,10 @@ button.components-button.woolentor-elements-tab-menu-item.tab-menu-active{
     border-bottom: 1px solid #ccc;
 }
 
+/* Column Control */
+.woolentor-column-control{
+    justify-content: start;
+}
 
 /* Dimensions control */
 .wp-block-selector-woolentor-dimensions-control{
@@ -371,6 +379,14 @@ label.woolentor-control-title {
     color: #009fd4;
 }
 
+/* Promoted token field Control */
+.woolentor-promoted-token-field.woolentor-field-section{
+    align-items: flex-start;
+}
+.woolentor-promoted-token-field .woolentor-control__reset-button{
+    margin-top: 30px;
+}
+
 /* Background Control */
 .wp-block-selector-woolentor-background-control .components-select-control .components-flex__item,.wp-block-selector-woolentor-background-control .components-select-control .components-input-control__container{
     width: 50% !important;
@@ -457,6 +473,49 @@ label.woolentor-control-title {
 }
 .woolentor-device-button button.components-button.is-primary{
     color: #007cba !important;
+}
+
+/* Responsive Switcher Button Component */
+.woolentor-responsive-switcher-button-area {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+.woolentor-responsive-switcher-button-area:not(.open-switcher){
+    overflow: hidden;
+}
+.woolentor-field-label {
+    display: flex;
+    align-items: center;
+}
+.woolentor-responsive-switcher-button {
+    position: absolute;
+    z-index: 20;
+    background: #fff;
+}
+.woolentor-responsive-switcher-button-area.open-switcher .woolentor-responsive-switcher-button{
+    border: 1px solid #222;
+}
+.woolentor-responsive-switcher-button .components-button {
+    width: 100% !important;
+    min-width: inherit !important;
+    padding: 0 !important;
+    height: 25px !important;
+    box-shadow: none !important;
+    border-radius: 0;
+    border: 0 !important;
+}
+.woolentor-responsive-switcher-button-area.open-switcher .woolentor-responsive-switcher-button .components-button{
+    border-bottom: 1px solid #222;
+}
+.woolentor-responsive-switcher-button-area.open-switcher .woolentor-responsive-switcher-button div:last-child .components-button {
+    border: 0;
+}
+.woolentor-responsive-switcher-button .components-button .dashicon {
+    font-size: 14px;
+    margin: 0;
+    line-height: 20px;
 }
 
 /*

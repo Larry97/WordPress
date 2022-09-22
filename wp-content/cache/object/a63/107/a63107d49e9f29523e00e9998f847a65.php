@@ -1,1 +1,0 @@
-­Ñ*c<?php exit; ?>a:1:{s:7:"content";a:2:{s:5:"Color";a:2:{i:0;s:5:"Black";i:1;s:5:"White";}s:22:"Handles and legs color";a:3:{i:0;s:5:"Black";i:1;s:5:"Beige";i:2;s:5:"White";}}}

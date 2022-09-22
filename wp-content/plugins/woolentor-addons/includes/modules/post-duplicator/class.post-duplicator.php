@@ -42,7 +42,7 @@ class WooLentor_Post_Dupicator{
         if ( current_user_can('edit_posts') && ( in_array( $post->post_type, $enable ) || in_array('all', $enable) ) ) {
             $actionurl = admin_url('admin.php?action=woolentor_duplicate_post_as_draft&post=' . $post->ID );
             $url = wp_nonce_url( $actionurl, 'woolentor_duplicate_nonce' );
-            $actions['woolentorduplicate'] = '<a href="'.$url.'" title="'.esc_attr__( 'HT Mega Duplicator', 'htmega-addons' ).'" rel="permalink">'.esc_html__( 'HT Duplicate', 'htmega-addons' ).'</a>';
+            $actions['woolentorduplicate'] = '<a href="'.$url.'" title="'.esc_attr__( 'HT Duplicator', 'woolentor' ).'" rel="permalink">'.esc_html__( 'HT Duplicate', 'woolentor' ).'</a>';
 
         }
         return $actions;

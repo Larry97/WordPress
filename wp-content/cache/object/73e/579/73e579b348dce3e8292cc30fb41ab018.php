@@ -1,4 +1,4 @@
- Û*c<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:703;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2022-09-18 10:06:06";s:13:"post_date_gmt";s:19:"2022-09-18 10:06:06";s:12:"post_content";s:297:"<strong>Qty On Hand: 10
+¿+c<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:703;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2022-09-18 10:06:06";s:13:"post_date_gmt";s:19:"2022-09-18 10:06:06";s:12:"post_content";s:297:"<strong>Qty On Hand: 10
 Qty in Production: 20</strong>
 
 <strong>Item ID:Â </strong>FF097

@@ -939,16 +939,39 @@ class Woolentor_Wb_Archive_Product_Widget extends Widget_Base {
             $GLOBALS['post'] = null;
         }
 
+        $filterable = ( isset( $settings['filterable'] ) ? rest_sanitize_boolean( $settings['filterable'] ) : true );
+
         $settings = $this->get_settings();
         $settings['editor_mode'] = Plugin::instance()->editor->is_edit_mode();
         add_filter( 'product_custom_limit', array( $this, 'woolentor_custom_product_limit' ) );
-        $shortcode = new \Archive_Products_Render( $settings );
-
+        $shortcode = new \Archive_Products_Render( $settings, 'products', $filterable );
         $content = $shortcode->get_content();
-        if ( strip_tags( trim( $content ) ) ) {
-            echo $content;
-        } else{
-            echo '<div class="products-not-found"><p class="woocommerce-info">' . esc_html__( 'No products were found matching your selection.','woolentor' ) . '</p></div>';
+        $not_found_content = woolentor_products_not_found_content();
+
+        if ( true === $filterable ) {
+            $wrap_class = 'wl-filterable-products-wrap';
+            $content_class = 'wl-filterable-products-content';
+            $wrap_attributes = 'data-wl-widget-name="woolentor-product-archive-addons"';
+            $wrap_attributes .= ' data-wl-widget-settings="' . esc_attr( htmlspecialchars( wp_json_encode( $settings ) ) ) . '"';
+            ?>
+            <div class="<?php echo esc_attr( $wrap_class ); ?>"<?php echo $wrap_attributes; ?>>
+                <div class="<?php echo esc_attr( $content_class ); ?>">
+                    <?php
+                    if ( strip_tags( trim( $content ) ) ) {
+                        echo $content;
+                    } else{
+                        echo $not_found_content;
+                    }
+                    ?>
+                </div>
+            </div>
+            <?php
+        } else {
+            if ( strip_tags( trim( $content ) ) ) {
+                echo $content;
+            } else{
+                echo $not_found_content;
+            }
         }
 
     }

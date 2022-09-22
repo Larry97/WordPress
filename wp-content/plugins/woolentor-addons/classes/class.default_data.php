@@ -132,10 +132,9 @@ class WooLentor_Default_Data{
 			return $product;
 		}
 
-		// $product = $this->get_simple_product();
 		$product = wc_get_product( woolentor_get_last_product_id() );
 
-		return empty( $product ) ? new \stdClass() : $product;
+		return empty( $product ) ? null : $product;
 
 	}
 

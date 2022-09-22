@@ -1,3 +1,6 @@
+.wp-embed-responsive .wp-block{
+    outline: 0;
+}
 /*My Account Page*/
 .woolentor_myaccount_page {
     overflow: hidden;

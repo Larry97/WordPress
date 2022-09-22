@@ -245,6 +245,7 @@
                 $( 'body' ).append( content );
 
                 woolentor_module_ajax_reactive();
+                $( document ).trigger('module_setting_loaded');
                 $this.removeClass('module-setting-loading');
                 
             },
@@ -511,6 +512,7 @@
             }
 
             $(document).trigger('repeater_field_added', [ $('.woolentor-module-setting-data .woolentor-option-repeater-item.woolentor_active_repeater') ] );
+            $(document).trigger('repeater_field_item_added', [ $('.woolentor-module-setting-data .woolentor-option-repeater-item.woolentor_active_repeater') ] );
 
             // Field Dependency
             $('.woolentor-option-repeater-item-area').children('.woolentor-option-repeater-item').children('.woolentor-option-repeater-fields').woolentor_conditions();
@@ -536,18 +538,26 @@
             } else {
                 $parentItem.addClass('woolentor_active_repeater').siblings().removeClass('woolentor_active_repeater');
                 $(document).trigger('repeater_field_added', [ $('.woolentor-module-setting-data .woolentor-option-repeater-item.woolentor_active_repeater') ] );
+                $(document).trigger('repeater_field_item_active', [ $parentItem ] );
             }
             $('.woolentor-option-repeater-item-area').children('.woolentor-option-repeater-item').children('.woolentor-option-repeater-fields').woolentor_conditions();
         });
 
         // Remove Element
         $( '.woolentor-option-repeater-item-remove' ).on('click', function( event ) {
-            $(this).parents('.woolentor-option-repeater-item').remove();
+            
+            const $this = $(this),
+                $parentItem = $this.parents('.woolentor-option-repeater-item'),
+                $fieldsArea = $parentItem.parents('.woolenor-reapeater-fields-area');
+
+            $parentItem.remove();
             
             // ID Re-Order
             $('.woolentor-option-repeater-item:not(.woolentor-repeater-hidden)').each( function( index ) {
                 $(this).attr('data-id', index );
             });
+
+            $(document).trigger('repeater_field_item_removed', [ $parentItem, $fieldsArea ] );
 
             // Enable Button
             $('.woolentor-admin-module-save').removeClass('disabled').attr('disabled', false).text( WOOLENTOR_ADMIN.message.btntxt );

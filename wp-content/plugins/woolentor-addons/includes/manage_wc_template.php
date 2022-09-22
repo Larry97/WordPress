@@ -72,6 +72,9 @@ class Woolentor_Manage_WC_Template{
                 if( false !== self::has_template( 'productemptycartpage' ) ){
                     $classes[] = $class_prefix.self::has_template( 'productemptycartpage' );
                 }
+                if( WC()->cart && WC()->cart->is_empty() ){
+                    $classes[] = 'woolentor-empty-cart';
+                }
             }
         }
 
@@ -164,7 +167,7 @@ class Woolentor_Manage_WC_Template{
             if ( has_blocks( $content ) ) {
                 $blocks = parse_blocks( $content );
                 foreach ( $blocks as $block ) {
-                    $output .= render_block( $block );
+                    $output .= do_shortcode( render_block( $block ) );
                 }
             }else{
                 $content = apply_filters( 'the_content', $content );

@@ -24,6 +24,17 @@ if( isset( $settings['saleTagShow'] ) && $settings['saleTagShow'] === false){
 !empty( $settings['columns']['tablet'] ) ? $areaClasses[] = 'woolentor-products-columns-tablet-'.$settings['columns']['tablet'] : 'woolentor-products-columns-tablet-2';
 !empty( $settings['columns']['mobile'] ) ? $areaClasses[] = 'woolentor-products-columns-mobile-'.$settings['columns']['mobile'] : 'woolentor-products-columns-mobile-1';
 
+//Product Filter Module
+$contentClasses = array();
+$areaAttributes = array();
+$filterable = ( isset( $settings['filterable'] ) ? rest_sanitize_boolean( $settings['filterable'] ) : true );
+if ( true === $filterable ) {
+	$areaClasses[] = 'wl-filterable-products-wrap';
+	$contentClasses[] = 'wl-filterable-products-content';
+	$areaAttributes[] = 'data-wl-widget-name="woolentor-product-archive-addons"';
+	$areaAttributes[] = 'data-wl-widget-settings="' . esc_attr( htmlspecialchars( wp_json_encode( $settings ) ) ) . '"';
+}
+
 if ( WC()->session && function_exists( 'wc_print_notices' ) ) {
 	wc_print_notices();
 }
@@ -49,13 +60,16 @@ if( !empty( $settings['paginate'] ) ){
 	$options['orderby'] = !empty( $settings['orderBy'] ) ? $settings['orderBy'] : 'date';
 }
 
-$shortcode 	= new \Archive_Products_Render( $options );
+$shortcode 	= new \Archive_Products_Render( $options, 'products', $filterable );
 $content 	= $shortcode->get_content();
+$not_found_content = woolentor_products_not_found_content();
 
-echo '<div class="'.implode(' ', $areaClasses ).'">';
-	if ( strip_tags( trim( $content ) ) ) {
-		echo $content;
-	} else{
-		echo '<div class="products-not-found"><p class="woocommerce-info">' . esc_html__( 'No products were found matching your selection.','woolentor' ) . '</p></div>';
-	}
+echo '<div class="'.implode(' ', $areaClasses ).'" '.implode(' ', $areaAttributes ).'>';
+	echo ( ( true === $filterable ) ? '<div class="'.implode(' ', $contentClasses ).'">' : '' );
+		if ( strip_tags( trim( $content ) ) ) {
+			echo $content;
+		} else{
+			echo $not_found_content;
+		}
+	echo ( ( true === $filterable ) ? '</div>' : '' );
 echo '</div>';

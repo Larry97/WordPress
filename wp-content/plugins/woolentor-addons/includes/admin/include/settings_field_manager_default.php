@@ -301,7 +301,7 @@ class WooLentor_Settings_Field_Manager_Default {
 
         $field_options = array_merge( $value, $args['options'] );
 
-        $html  = '<fieldset><input type="checkbox" class="htoption-shortable-checkall">'.esc_html__( 'Check All', 'htoptions' ).'<ul class="htoption_shortable">';
+        $html  = '<fieldset><input type="checkbox" class="htoption-shortable-checkall">'.esc_html__( 'Check All', 'woolentor' ).'<ul class="htoption_shortable">';
         $html .= sprintf( '<input type="hidden" name="%1$s[%2$s]" value="" />', $args['section'], $args['id'] );
 
         foreach ( $field_options as $key => $label ) {

@@ -1,1 +1,0 @@
-¶X*c<?php exit; ?>a:1:{s:7:"content";s:62:"{{WP_PLUGIN_DIR}}/woocommerce/templates/cart/cart-shipping.php";}

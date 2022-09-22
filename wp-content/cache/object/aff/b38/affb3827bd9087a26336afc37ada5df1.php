@@ -1,1 +1,0 @@
-ˆk)c<?php exit; ?>a:1:{s:7:"content";a:2:{s:4:"Size";a:4:{i:0;s:5:"JUMBO";i:1;s:2:"XL";i:2;s:3:"XXL";i:3;s:4:"XXXL";}s:5:"Usage";a:2:{i:0;s:6:"Indoor";i:1;s:7:"Outdoor";}}}

@@ -870,6 +870,7 @@ class Woolentor_Product_Accordion_Widget extends Widget_Base {
                                                         ?> 
                                                     </ul>
                                                 </div>
+                                                <?php do_action( 'woolentor_addon_after_price' ); ?>
                                             </div>
                                         </div>
                                     </div>

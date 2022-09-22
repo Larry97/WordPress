@@ -100,7 +100,8 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
                                             <# if( item.isPro === 1 ){ #>
                                             <span class="woolentor-template-edit-demo-name tmp-pro">{{{data.heading.sampledata.pro}}}</span>
                                             <# } #>
-                                            <a class="woolentor-template-edit-demo-eye" href="{{ item.url }}" target="_blank"><span class="dashicons dashicons-admin-links"></span></a>
+                                            <!-- <a class="woolentor-template-edit-demo-eye" href="{{ item.url }}" target="_blank"><span class="dashicons dashicons-admin-links"></span></a> -->
+                                            <a class="woolentor-template-edit-demo-eye thickbox" href="{{ item.thumbnail }}"><span class="dashicons dashicons-visibility"></span></a>
                                         </span>
                                     </label>
                                     <#

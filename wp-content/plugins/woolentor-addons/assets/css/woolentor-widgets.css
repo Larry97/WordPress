@@ -1,3 +1,6 @@
+.wp-embed-responsive .wp-block{
+  outline: 0;
+}
 .cus-col-5.ht-col-md-6 {
   flex: 0 0 20%;
   max-width: 20%;
@@ -3607,7 +3610,7 @@ span.woolentor-order-item-title .product-thumbnail{
   .wl-addto-cart.wl-style-2 form.cart .button:hover{
     background: #FFFFFF;
     color: #333333;
-    border: 1px solid #333333;
+    border-color: #333333;
   }
 
   .woocommerce div.product .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap,
@@ -5646,6 +5649,13 @@ div[class*="woolentor-single-select-drop"] .select2-results__option::before{
   top: 10px;
   border: 1px solid #ddd;
   width: 202px !important;
+}
+/* Select to compatibility with Elementor pro */
+.woolentor-filter-single-item.woolentor-states-input-auto input.select2-search__field {
+  width: auto !important;
+}
+.woolentor-select-drop span.select2-container.select2-container--default.select2-container--open {
+  top: revert !important;
 }
 /* Product Horizontal Filter End */
 

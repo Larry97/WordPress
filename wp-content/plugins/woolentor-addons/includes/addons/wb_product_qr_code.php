@@ -84,19 +84,19 @@ class Woolentor_Wb_Product_Qr_Code_Widget extends Widget_Base {
             $this->add_responsive_control(
                 'code_align',
                 [
-                    'label' => esc_html__( 'Alignment', 'move' ),
+                    'label' => esc_html__( 'Alignment', 'woolentor' ),
                     'type' => Controls_Manager::CHOOSE,
                     'options' => [
                         'left' => [
-                            'title' => esc_html__( 'Left', 'move' ),
+                            'title' => esc_html__( 'Left', 'woolentor' ),
                             'icon' => 'eicon-text-align-left',
                         ],
                         'center' => [
-                            'title' => esc_html__( 'Center', 'move' ),
+                            'title' => esc_html__( 'Center', 'woolentor' ),
                             'icon' => 'eicon-text-align-center',
                         ],
                         'right' => [
-                            'title' => esc_html__( 'Right', 'move' ),
+                            'title' => esc_html__( 'Right', 'woolentor' ),
                             'icon' => 'eicon-text-align-right',
                         ],
                     ],

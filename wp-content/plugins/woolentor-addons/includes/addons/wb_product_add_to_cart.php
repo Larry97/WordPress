@@ -551,8 +551,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label'     => __( 'Wishlist Icon Color', 'woolentor' ),
                             'type'      => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon.wishlist a' => 'color: {{VALUE}}',
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon.wishlist a' => 'color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon.wishlist a' => 'color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon.wishlist a' => 'color: {{VALUE}}',
                             ],
                             'condition'=>[
                                 'hide_advance_cart_wishlist_icon' => '',
@@ -566,8 +566,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label'     => __( 'Wishlist Background Color', 'woolentor' ),
                             'type'      => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon.wishlist' => 'background: {{VALUE}}',
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon.wishlist' => 'background: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon.wishlist' => 'background: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon.wishlist' => 'background: {{VALUE}}',
                             ],
                             'condition'=>[
                                 'hide_advance_cart_wishlist_icon' => '',
@@ -581,8 +581,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label'     => __( 'Compare Icon Color', 'woolentor' ),
                             'type'      => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon.compare' => 'color: {{VALUE}}',
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon.compare' => 'color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon.compare' => 'color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon.compare' => 'color: {{VALUE}}',
                             ],
                             'condition'=>[
                                 'hide_advance_cart_compare_icon' => '',
@@ -596,8 +596,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label'     => __( 'Compare Background Color', 'woolentor' ),
                             'type'      => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon.compare' => 'background: {{VALUE}}',
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon.compare' => 'background: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon.compare' => 'background: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon.compare' => 'background: {{VALUE}}',
                             ],
                             'condition'=>[
                                 'hide_advance_cart_compare_icon' => '',
@@ -610,7 +610,7 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                         [
                             'name' => 'advance_cart_icon_border',
                             'label' => __( 'Border', 'woolentor' ),
-                            'selector' => '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon,{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon',
+                            'selector' => '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon,{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon',
                         ]
                     );
 
@@ -645,8 +645,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label'     => __( 'Wishlist Icon Color', 'woolentor' ),
                             'type'      => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon.wishlist:hover > a' => 'color: {{VALUE}}',
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon.wishlist:hover > a' => 'color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon.wishlist:hover > a' => 'color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon.wishlist:hover > a' => 'color: {{VALUE}}',
                             ],
                             'condition'=>[
                                 'hide_advance_cart_wishlist_icon' => '',
@@ -660,8 +660,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label'     => __( 'Wishlist Background Color', 'woolentor' ),
                             'type'      => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon.wishlist:hover' => 'background: {{VALUE}}',
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon.wishlist:hover' => 'background: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon.wishlist:hover' => 'background: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon.wishlist:hover' => 'background: {{VALUE}}',
                             ],
                             'condition'=>[
                                 'hide_advance_cart_wishlist_icon' => '',
@@ -675,8 +675,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label'     => __( 'Compare Icon Color', 'woolentor' ),
                             'type'      => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon.compare:hover > a' => 'color: {{VALUE}}',
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon.compare:hover > a' => 'color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon.compare:hover > a' => 'color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon.compare:hover > a' => 'color: {{VALUE}}',
                             ],
                             'condition'=>[
                                 'hide_advance_cart_compare_icon' => '',
@@ -690,8 +690,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label'     => __( 'Compare Background Color', 'woolentor' ),
                             'type'      => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon.compare:hover' => 'background: {{VALUE}}',
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon.compare:hover' => 'background: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon.compare:hover' => 'background: {{VALUE}}',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon.compare:hover' => 'background: {{VALUE}}',
                             ],
                             'condition'=>[
                                 'hide_advance_cart_compare_icon' => '',
@@ -704,7 +704,7 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                         [
                             'name' => 'advance_cart_hover_icon_border',
                             'label' => __( 'Border', 'woolentor' ),
-                            'selector' => '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon:hover,{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon:hover',
+                            'selector' => '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon:hover,{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon:hover',
                         ]
                     );
 
@@ -715,8 +715,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'type' => Controls_Manager::DIMENSIONS,
                             'size_units' => [ 'px', '%' ],
                             'selectors' => [
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-wrap .wl-cart-icon:hover' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
-                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-wrap .wl-cart-icon:hover' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon:hover' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
+                                '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon:hover' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
                                 '{{WRAPPER}} .wl-addto-cart.wl-style-2 form.cart .wl-cart-icon:hover' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
                                 '{{WRAPPER}} .wl-addto-cart.wl-style-5 form.cart .wl-cart-icon:hover' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
                             ],
@@ -1050,7 +1050,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label'     => __( 'Text Color', 'woolentor' ),
                             'type'      => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .cart button' => 'color: {{VALUE}} !important;',
+                                '{{WRAPPER}} .wl-addto-cart[class*="wl-style-"] form.cart button' => 'color: {{VALUE}};',
+                                '{{WRAPPER}} .wl-style-1 form.cart button' => 'color: {{VALUE}};',
                             ],
                         ]
                     );
@@ -1060,7 +1061,7 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                         array(
                             'name'      => 'button_typography',
                             'label'     => __( 'Typography', 'woolentor' ),
-                            'selector'  => '{{WRAPPER}} .cart button',
+                            'selector'  => '{{WRAPPER}} .wl-addto-cart[class*="wl-style-"] form.cart button,{{WRAPPER}} .wl-style-1 form.cart button',
                         )
                     );
 
@@ -1071,7 +1072,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'type' => Controls_Manager::DIMENSIONS,
                             'size_units' => [ 'px', 'em' ],
                             'selectors' => [
-                                '{{WRAPPER}} .cart button' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',
+                                '{{WRAPPER}} .wl-addto-cart[class*="wl-style-"] form.cart button' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                                '{{WRAPPER}} .wl-style-1 form.cart button' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                             ],
                         ]
                     );
@@ -1093,7 +1095,7 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                         [
                             'name' => 'button_border',
                             'label' => __( 'Border', 'woolentor' ),
-                            'selector' => '{{WRAPPER}} .cart button',
+                            'selector' => '{{WRAPPER}} .wl-addto-cart[class*="wl-style-"] form.cart button,{{WRAPPER}} .wl-style-1 form.cart button',
                         ]
                     );
 
@@ -1103,7 +1105,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label' => __( 'Border Radius', 'woolentor' ),
                             'type' => Controls_Manager::DIMENSIONS,
                             'selectors' => [
-                                '{{WRAPPER}} .cart button' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',
+                                '{{WRAPPER}} .wl-addto-cart[class*="wl-style-"] form.cart button' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+                                '{{WRAPPER}} .wl-style-1 form.cart button' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                             ],
                         ]
                     );
@@ -1114,7 +1117,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label' => __( 'Background Color', 'woolentor' ),
                             'type' => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .cart button' => 'background-color: {{VALUE}} !important',
+                                '{{WRAPPER}} .wl-addto-cart[class*="wl-style-"] form.cart button' => 'background-color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-style-1 form.cart button' => 'background-color: {{VALUE}}',
                             ],
                         ]
                     );
@@ -1135,7 +1139,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label'     => __( 'Text Color', 'woolentor' ),
                             'type'      => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .cart button:hover' => 'color: {{VALUE}} !important;',
+                                '{{WRAPPER}} .wl-addto-cart[class*="wl-style-"] form.cart button:hover' => 'color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-style-1 form.cart button:hover' => 'color: {{VALUE}}',
                             ],
                         ]
                     );
@@ -1146,7 +1151,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label' => __( 'Background Color', 'woolentor' ),
                             'type' => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .cart button:hover' => 'background-color: {{VALUE}} !important',
+                                '{{WRAPPER}} .wl-addto-cart[class*="wl-style-"] form.cart button:hover' => 'background-color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-style-1 form.cart button:hover' => 'background-color: {{VALUE}}',
                             ],
                         ]
                     );
@@ -1157,7 +1163,8 @@ class Woolentor_Wb_Product_Add_To_Cart_Widget extends Widget_Base {
                             'label' => __( 'Border Color', 'woolentor' ),
                             'type' => Controls_Manager::COLOR,
                             'selectors' => [
-                                '{{WRAPPER}} .cart button:hover' => 'border-color: {{VALUE}} !important',
+                                '{{WRAPPER}} .wl-addto-cart[class*="wl-style-"] form.cart button:hover' => 'border-color: {{VALUE}}',
+                                '{{WRAPPER}} .wl-style-1 form.cart button:hover' => 'border-color: {{VALUE}}',
                             ],
                         ]
                     );

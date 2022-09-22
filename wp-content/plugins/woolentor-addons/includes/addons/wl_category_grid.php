@@ -122,12 +122,30 @@ class Woolentor_Wl_Category_Grid_Widget extends Widget_Base {
             );
 
             $this->add_control(
+                'catorderby',
+                [
+                    'label' => esc_html__( 'Orderby', 'woolentor' ),
+                    'type' => Controls_Manager::SELECT,
+                    'default' => 'name',
+                    'options' => [
+                        'ID'    => esc_html__('ID','woolentor'),
+                        'name'  => esc_html__('Name','woolentor'),
+                        'slug'  => esc_html__('Slug','woolentor'),
+                        'parent' => esc_html__('Parent','woolentor'),
+                        'menu_order' => esc_html__('Menu Order','woolentor'),
+                    ],
+                    'condition' => [
+                        'category_display_type!' => 'single_cat',
+                    ]
+                ]
+            );
+
+            $this->add_control(
                 'limitcount',
                 [
                     'label' => esc_html__( 'Show items', 'woolentor' ),
                     'type' => Controls_Manager::NUMBER,
                     'min' => 1,
-                    'max' => 10,
                     'step' => 1,
                     'default' => 5,
                     'condition' => [
@@ -933,6 +951,7 @@ class Woolentor_Wl_Category_Grid_Widget extends Widget_Base {
 
         $display_type = $settings['category_display_type'];
         $order = ! empty( $settings['catorder'] ) ? $settings['catorder'] : '';
+        $orderby = ! empty( $settings['catorderby'] ) ? $settings['catorderby'] : 'name';
 
         $column         = $settings['category_grid_column'];
         $layout         = $settings['layout'];
@@ -943,7 +962,7 @@ class Woolentor_Wl_Category_Grid_Widget extends Widget_Base {
         }
 
         $catargs = array(
-            'orderby'    => 'name',
+            'orderby'    => $orderby,
             'order'      => $order,
             'hide_empty' => true,
         );

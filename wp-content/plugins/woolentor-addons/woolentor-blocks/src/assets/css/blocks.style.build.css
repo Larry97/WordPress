@@ -1,3 +1,6 @@
+.wp-embed-responsive .wp-block{
+    outline: 0;
+}
 .wl-row.slick-slider{
     margin-right: 0;
     margin-left: 0;

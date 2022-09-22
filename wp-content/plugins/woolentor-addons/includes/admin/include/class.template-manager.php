@@ -181,6 +181,14 @@ class Woolentor_Template_Manager{
 				$query->query_vars['meta_value']   = $type;
 				$query->query_vars['meta_compare'] = '=';
 			}
+		} else {
+			// Meta query to fetch only the posts that doest not containt the meta key '_woolentor_order_bump'
+			$query->query_vars['meta_query'] = [
+				[
+					'key'     => '_woolentor_order_bump',
+					'compare' => 'NOT EXISTS',	
+				],
+			];
 		}
 	}
 

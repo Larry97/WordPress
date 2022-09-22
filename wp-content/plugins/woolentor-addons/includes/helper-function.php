@@ -1254,3 +1254,71 @@ function woolentor_get_current_theme_directory(){
 
     return $current_theme_dir;
 }
+
+/*
+ * Products not found content.
+ */
+function woolentor_products_not_found_content(){
+    return '<div class="products-not-found"><p class="woocommerce-info">' . esc_html__( 'No products were found matching your selection.','woolentor' ) . '</p></div>';
+}
+
+/**
+ * Get countries
+ */
+if( !function_exists('woolentor_get_countries') ){
+    function woolentor_get_countries(){
+        $output = array();
+
+        if( class_exists('WC_Countries') ){
+            $countries = new WC_Countries();
+
+            if ( is_object( $countries ) && ! empty( $countries ) ) {
+                $countries = $countries->get_countries();
+
+                if ( is_array( $countries ) && ! empty( $countries ) ) {
+                    $output = $countries;
+                }
+            }
+        }
+
+        return $output;
+    }
+}
+
+/**
+ * Get users
+ */
+if( !function_exists('woolentor_get_users') ){
+    function woolentor_get_users(){
+        $options = array();
+
+        $query = new WP_User_Query( array( 'fields' => array( 'display_name', 'ID' ) ) );
+        if ( ! is_wp_error( $query ) && ! empty( $query->get_results() ) ) {
+            foreach ( $query->get_results() as $item ) {
+                $options[$item->ID] = $item->display_name;
+            }
+            }
+
+        return $options;
+    }
+}
+
+/**
+ * Get user roles
+ */
+if( !function_exists('woolentor_get_user_roles') ){
+    function woolentor_get_user_roles(){
+        global $wp_roles;
+        $options = array();
+
+        if ( ! empty( $wp_roles ) ) {
+            if ( ! empty( $wp_roles->roles ) ) {
+                foreach ( $wp_roles->roles as $role_key => $role_value ) {
+                    $options[$role_key] = $role_value['name'];
+                }
+            }
+        }
+
+        return $options;
+    }
+}

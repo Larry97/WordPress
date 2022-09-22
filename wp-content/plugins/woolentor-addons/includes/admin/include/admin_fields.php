@@ -911,6 +911,14 @@ class Woolentor_Admin_Fields {
                 ),
 
                 array(
+                    'name'  => 'wl_advance_product_filterp',
+                    'label' => esc_html__( 'Advanced Product Filter', 'woolentor' ),
+                    'type'  => 'element',
+                    'default' => 'off',
+                    'is_pro' => true,
+                ),
+
+                array(
                     'name'  => 'wl_custom_archive_layoutp',
                     'label' => esc_html__( 'Archive Layout (Custom)', 'woolentor' ),
                     'type'  => 'element',
@@ -2728,6 +2736,24 @@ class Woolentor_Admin_Fields {
                         'default'=> 'off',
                         'require_settings' => true,
                         'is_pro' => true
+                    ),
+
+                    array(
+                        'name'    => 'order_bump',
+                        'label'   => esc_html__( 'Order Bump', 'woolentor' ),
+                        'type'    => 'module',
+                        'default' => 'off',
+                        'require_settings' => true,
+                        'is_pro'  => true
+                    ),
+
+                    array(
+                        'name'    => 'product_filterp',
+                        'label'   => esc_html__( 'Product Filter', 'woolentor' ),
+                        'type'    => 'module',
+                        'default' => 'off',
+                        'require_settings' => true,
+                        'is_pro'  => true
                     ),
 
                     array(

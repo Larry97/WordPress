@@ -1,4 +1,4 @@
-­Ñ*c<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:639;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2022-09-18 08:25:37";s:13:"post_date_gmt";s:19:"2022-09-18 08:25:37";s:12:"post_content";s:816:"<strong>Qty On Hand: 12
+¿+c<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:639;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2022-09-18 08:25:37";s:13:"post_date_gmt";s:19:"2022-09-18 08:25:37";s:12:"post_content";s:816:"<strong>Qty On Hand: 12
 Qty in Production: 0</strong>
 
 <strong>Item ID:Â </strong>UP125

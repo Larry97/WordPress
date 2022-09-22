@@ -87,13 +87,6 @@ class Scripts {
 		wp_enqueue_style( 'slick' );
 		wp_enqueue_style( 'woolentor-widgets' );
 
-		wp_enqueue_style(
-		    'woolentor-block-common',
-		    WOOLENTOR_BLOCK_URL . '/src/assets/css/common-style.css',
-		    array(),
-		    WOOLENTOR_VERSION
-		);
-
 		// Third-Party Scripts
 		$this->load_extra_scripts();
 

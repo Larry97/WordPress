@@ -646,8 +646,6 @@ class Woolentor_Product_Image_Accordion_Widget extends Widget_Base {
         $order              = $this->get_settings_for_display('order');
         $tabuniqid          = $this->get_id();
        
-
-
         // Query Argument
         $args = array(
             'post_type'             => 'product',
@@ -769,6 +767,7 @@ class Woolentor_Product_Image_Accordion_Widget extends Widget_Base {
                                 <div class="product-price">
                                     <span class="new-price"><?php woocommerce_template_loop_price(); ?></span>
                                 </div>
+                                <?php do_action( 'woolentor_addon_after_price' ); ?>
                                 <div class="action">
                                         <a href="<?php echo $product->add_to_cart_url(); ?>" data-quantity="1" class="action-item <?php echo $btna_class; ?>" data-product_id="<?php echo $product->get_id(); ?>"><?php echo __( $cart_btn, 'woolentor' );?></a>
                                     <?php 

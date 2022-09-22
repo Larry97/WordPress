@@ -49,10 +49,10 @@ class Attribute_Taxonomy_Metabox{
 			    'type'  => 'select',
 			    'title' => esc_html__( 'Swatch Tooltip', 'woolentor' ),
 				'options' => array(
-					''        => esc_html__('Use Global Setting', 'woolenor'),
-					'text'    => esc_html__('Text', 'woolenor'),
-					'image'   => esc_html__('Image', 'woolenor'),
-					'disable' => esc_html__('Disable', 'woolenor'),
+					''        => esc_html__('Use Global Setting', 'woolentor'),
+					'text'    => esc_html__('Text', 'woolentor'),
+					'image'   => esc_html__('Image', 'woolentor'),
+					'disable' => esc_html__('Disable', 'woolentor'),
 				),
 			    'class' => 'swatchly_hide_if_select'
 			),
@@ -83,15 +83,15 @@ class Attribute_Taxonomy_Metabox{
 			array(
 			    'id'    => 'swatchly_enable_multi_color',
 			    'type'  => 'checkbox',
-			    'title' => esc_html__( 'Enable Multi Color', 'woolenor' ),
-			    'label' => esc_html__( 'By checking this will enable you to set multiple color.', 'woolenor' ),
+			    'title' => esc_html__( 'Enable Multi Color', 'woolentor' ),
+			    'label' => esc_html__( 'By checking this will enable you to set multiple color.', 'woolentor' ),
 			    'class' => 'swatchly_show_if_color swatchly_hide_if_select'
 			),
 
 			array(
                 'id'         => 'swatchly_color_2',
                 'type'       => 'color',
-                'title'      => esc_html__( 'Swatch Color 2', 'woolenor' ),
+                'title'      => esc_html__( 'Swatch Color 2', 'woolentor' ),
                 'condition'  => array( 'swatchly_enable_multi_color', '==', '1' ),
 				'class' 	 => 'swatchly_hide_if_select'
 			),
@@ -261,7 +261,7 @@ class Attribute_Taxonomy_Metabox{
 				</div>
 			<?php } ?>
 			</div>
-			<a href="#" class="button button-primary csf--button" data-popup_title="<?php echo esc_attr__('Select Swatch Image', 'woolenor') ?>" data-upload_button_text="<?php echo esc_attr__('Upload Image', 'woolenor') ?>" data-preview-size="thumbnail"><?php echo esc_html__('Upload', 'woolentor') ?></a>
+			<a href="#" class="button button-primary csf--button" data-popup_title="<?php echo esc_attr__('Select Swatch Image', 'woolentor') ?>" data-upload_button_text="<?php echo esc_attr__('Upload Image', 'woolentor') ?>" data-preview-size="thumbnail"><?php echo esc_html__('Upload', 'woolentor') ?></a>
 
 			<?php if( $screen == 'edit' ): ?>
 				<input name="<?php echo esc_attr($field['id']) ?>[url]" id="<?php echo esc_attr($field['id']) ?>" type="hidden" value="<?php echo esc_attr($field_value['url']) ?>" class="swatchly-cs--url" size="40">

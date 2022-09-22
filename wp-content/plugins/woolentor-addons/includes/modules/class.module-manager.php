@@ -150,10 +150,34 @@ class Woolentor_Module_Manager{
             if( (  woolentor_get_option( 'enable', 'woolentor_email_automation_settings', 'off' ) == 'on' ) ){
                 require_once( WOOLENTOR_ADDONS_PL_PATH_PRO .'includes/modules/email-automation/email-automation.php' );
             }
+
+            // Order Bump
+            if( (  woolentor_get_option( 'enable', 'woolentor_order_bump_settings', 'off' ) == 'on' ) && file_exists(WOOLENTOR_ADDONS_PL_PATH_PRO .'includes/modules/order-bump/order-bump.php') ){
+                require_once( WOOLENTOR_ADDONS_PL_PATH_PRO .'includes/modules/order-bump/order-bump.php' );
+            }
+
+            // Product Filter
+            $this->include_product_filter_module_file();
             
 
         }
         
+    }
+
+    /**
+     * [include_product_filter_module_file] Include product filter module file
+     * @return [void]
+     */
+    public function include_product_filter_module_file(){
+        if( file_exists( WOOLENTOR_ADDONS_PL_PATH_PRO .'includes/modules/product-filter/product-filter.php' ) ){
+            require_once( WOOLENTOR_ADDONS_PL_PATH_PRO .'includes/modules/product-filter/product-filter.php' );
+
+            if( woolentor_get_option( 'enable', 'woolentor_product_filter_settings', 'off' ) == 'on' ){
+                woolentor_product_filter( true );
+            } else {
+                woolentor_product_filter( false );
+            }
+        }
     }
 
     /**

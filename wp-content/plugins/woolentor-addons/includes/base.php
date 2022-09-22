@@ -413,6 +413,7 @@ final class Base {
             require( WOOLENTOR_ADDONS_PL_PATH.'includes/archive_product_render.php' );           
             require( WOOLENTOR_ADDONS_PL_PATH.'includes/class.product_video_gallery.php' );
             require( WOOLENTOR_ADDONS_PL_PATH.'classes/class.product_query.php' );
+            require( WOOLENTOR_ADDONS_PL_PATH.'classes/class.third_party.php' );
         }
 
         // Page Action
