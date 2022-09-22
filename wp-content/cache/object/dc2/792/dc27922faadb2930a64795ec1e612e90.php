@@ -1,1 +1,1 @@
-Œ(c<?php exit; ?>a:1:{s:7:"content";a:0:{}}
+<+c<?php exit; ?>a:1:{s:7:"content";a:0:{}}
